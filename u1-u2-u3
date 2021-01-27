@@ -1,0 +1,33 @@
+Change the BakerAddress according to your Baker Name
+
+u1)
+
+./concordium-client baker set-key CurrentBakerKeys.json --sender BakerAddress
+
+Save the blockhash of the transaction: 74c1ce4ab7540806cd13fd3265a7fd45fe576d63dddc95226d58879
+
+Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/74c1ce4ab7540806cd13fd3265a7fd45fe576d6b4edb07dc95226d58879
+
+u2)
+
+./concordium-client baker generate-keys NEW_KEY_FILE.json
+
+./concordium-client baker set-key NEW_KEY_FILE.json --sender BakerAddress 
+
+Save the blockhash of the transaction: 977034573459fa58788630b45dd63cc3596a423abbe3f08091cdsa51   
+
+Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/977034573459fa58788630b45dd63cc35sad3abbe3f08091c09eb51   
+
+u3)
+
+./concordium-client baker remove --sender BakerAddress
+
+Save the blockhash of the remove baker transaction: xddxscasdab7540806cd13fd3265a7fd45fe576d63dddc95226d58879
+
+Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/xdxdcasdab7540806cd13fd3265a7fd45fe576d63dddc95226d58879
+
+./concordium-client baker add NEW_KEY_FILE.json --sender BakerAddress --stake 1000 --out ~/.local/share/concordium/baker-credentials.json
+
+Save the blockhash of the add baker transaction: asdxscasdab7540806cd13fd3265a7fd45fe576d63dddc95226d58879
+
+Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/asdxscasdab7540806cd13fd3265a7fd45fe576d63dddc95226d58879
