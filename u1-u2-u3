@@ -26,3 +26,22 @@ Save the blockhash of the remove baker transaction: xddxscasdab7540806cd13fd3265
 
 Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/xdxdcasdab7540806cd13fd3265a7fd45fe576d63dddc95226d58879
 
+// 1 WEEK COOLDOWN
+
+./concordium-client baker add NEW_KEY_FILE.json --sender bakerAccount --stake 1000 --out ~/.local/share/concordium/baker-credentials.json
+
+Save the blockhash of the add baker transaction: xddxscasdab7540806cd13fd3265a7fd45fe5asdadfdsfsdfds
+
+Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/xddxscasdab7540806cd13fd3265a7fd45fe5asdadfdsfsdfds
+
+// WAIT 2 EPOCHS, SAVE NEW BAKER ID
+
+u4)
+
+./concordium-client baker remove --sender BakerAddress
+
+Save the blockhash of the remove baker transaction: DASASDASDASDASDfd45fe576d63dddc95226d58879
+
+Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/ASDASDASfd3265a7fd45fe576d63dddc95226d58879
+
+// 1 WEEK COOLDOWN
