@@ -34,7 +34,7 @@ Save the blockhash of the add baker transaction: xddxscasdab7540806cd13fd3265a7f
 
 Check the block explorer in the network dashboard: https://dashboard.testnet.concordium.com/chain/xddxscasdab7540806cd13fd3265a7fd45fe5asdadfdsfsdfds
 
-// WAIT 2 EPOCHS
+// RESTAR THE NODE AND WAIT 2 EPOCHS
 
 u4)
 
